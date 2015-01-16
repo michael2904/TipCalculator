@@ -10,17 +10,17 @@ import Foundation
 
 class TipCalculatorModel {
 
-    var total: Double
     var TPS: Double
     var TVQ:Double
     var subtotal: Double
+    var total: Double
 
 
     init(subtotal: Double,TPS: Double, TVQ: Double) {
         self.subtotal = subtotal
         self.TPS = TPS
         self.TVQ = TVQ
-        total = calcWithTax()
+        self.total = (subtotal * ((100+TPS)/100))*((100+TVQ)/100)
     }
 
     func calcTipWithTipPctFromTotal(tipPct: Double) -> Double {
@@ -30,8 +30,12 @@ class TipCalculatorModel {
         return subtotal * tipPct
     }
     func calcWithTax() -> Double {
-        var total = (subtotal * ((100+TPS)/100))*((100+TVQ)/100)
+        total = (subtotal * ((100+TPS)/100))*((100+TVQ)/100)
         return total
+    }
+    func calcWithOutTax() -> Double {
+        subtotal = total / (((100+TPS)/100)*((100+TVQ)/100))
+        return subtotal
     }
 
   func returnPossibleTipsFromTotal() -> [Int: Double] {

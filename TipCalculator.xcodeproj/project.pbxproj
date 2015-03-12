@@ -13,7 +13,7 @@
 		355599331A436196001C3414 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355599321A436196001C3414 /* TipCalculatorTests.swift */; };
 		35F7F31F1A43895100EA78C2 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F7F31E1A43895100EA78C2 /* TipCalculatorModel.swift */; };
 		40DDF7EE1A686FFB0082578C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DDF7EC1A686FFB0082578C /* LaunchScreen.xib */; };
-		40DDF7F21A68D4240082578C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDF7F11A68D4240082578C /* Images.xcassets */; };
+		40FEBA381A699C2E002DF197 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FEBA371A699C2E002DF197 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		355599321A436196001C3414 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
 		35F7F31E1A43895100EA78C2 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 		40DDF7ED1A686FFB0082578C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../PhotoFilter/PhotoFilter/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		40DDF7F11A68D4240082578C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../.Trash/Images.xcassets; sourceTree = "<group>"; };
+		40FEBA371A699C2E002DF197 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				40DDF7EC1A686FFB0082578C /* LaunchScreen.xib */,
-				40DDF7F11A68D4240082578C /* Images.xcassets */,
 				3555991C1A436196001C3414 /* AppDelegate.swift */,
 				3555991E1A436196001C3414 /* ViewController.swift */,
+				40FEBA371A699C2E002DF197 /* Images.xcassets */,
 				355599201A436196001C3414 /* Main.storyboard */,
 				3555991A1A436196001C3414 /* Supporting Files */,
 				35F7F31E1A43895100EA78C2 /* TipCalculatorModel.swift */,
@@ -164,6 +164,7 @@
 				TargetAttributes = {
 					355599161A436196001C3414 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2S3D8J8M3T;
 					};
 					3555992B1A436196001C3414 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -195,7 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40DDF7F21A68D4240082578C /* Images.xcassets in Resources */,
+				40FEBA381A699C2E002DF197 /* Images.xcassets in Resources */,
 				355599221A436196001C3414 /* Main.storyboard in Resources */,
 				40DDF7EE1A686FFB0082578C /* LaunchScreen.xib in Resources */,
 			);

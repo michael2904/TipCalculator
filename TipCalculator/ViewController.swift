@@ -13,11 +13,11 @@ class UIViewController {
  
 class ViewController: UIKit.UIViewController {
 
-  @IBOutlet var TotalTextField : UITextField!
-  @IBOutlet var SubtotalField : UITextField!
+    @IBOutlet var TotalTextField : UITextField!
+    @IBOutlet var SubtotalField : UITextField!
     @IBOutlet var TipPctSlider : UISlider!
     @IBOutlet var TipPctLabel : UILabel!
-  @IBOutlet var resultsTextView : UITextView!
+    @IBOutlet var resultsTextView : UITextView!
     @IBOutlet var tipChoice: UISegmentedControl!
     @IBOutlet var refreshTot: UIButton!
     @IBOutlet var refreshSubtot: UIButton!
